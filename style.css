@@ -379,7 +379,9 @@ header{
    }
 
    .project{
-       height: 50vh;
+       height: 100vh;
+       /* background-color: red; */
+       flex-direction: column;
    }
 
    .project-box{
@@ -389,12 +391,14 @@ header{
 }
 
 .project-box--1{
-    margin-bottom: 10vh;
+    margin-bottom: 1vh;
+    margin-right: 20vh;
     
 }
 
 .project-box--2{
-    margin-top: 10vh;
+    margin-top: 1vh;
+    margin-left: 20vh;
    
 }
 .black{
@@ -406,7 +410,7 @@ header{
  } 
 
  .form-page{
-     margin-top: 5vh;
+     margin-top: 0vh;
  }
  .form{
      width: 100%;
